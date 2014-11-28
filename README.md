@@ -8,6 +8,7 @@ Downloads the todays wallpaper from Bing Homepage WWW.BING.COM
 
 TODO: 
 I. Save each days wallpaper to a directory
+
 II. Display the saved images in Gallary (Backup Screen)
 
 ## Contributing
