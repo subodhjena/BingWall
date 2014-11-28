@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingWall.iOS", "BingWall.iOS\BingWall.iOS.csproj", "{C48546EF-EB7C-451F-9C4E-7B93C30CF062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingWall.Android", "BingWall.Android\BingWall.Android.csproj", "{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingWall.Core", "BingWall.Core\BingWall.Core.csproj", "{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Release|iPhone.Build.0 = Release|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Release|iPhone.Build.0 = Release|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Release|iPhone.Build.0 = Release|iPhone
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C48546EF-EB7C-451F-9C4E-7B93C30CF062}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BingWall.iOS\BingWall.iOS.csproj
+	EndGlobalSection
+EndGlobal
