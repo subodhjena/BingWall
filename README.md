@@ -1,12 +1,13 @@
 BingWall
 ========
 
-An iOS/Android app to download and store Bing search engine background
+An iOS/Android app to download and store Bing search engine background. The complete app is made with C# using Xamarin Android and Xamarin iOS
 
 ## Usage
 Downloads the todays wallpaper from Bing Homepage WWW.BING.COM
 
 TODO: 
+
 I. Save each days wallpaper to a directory
 
 II. Display the saved images in Gallary (Backup Screen)
