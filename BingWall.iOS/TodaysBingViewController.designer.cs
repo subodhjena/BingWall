@@ -13,21 +13,29 @@ namespace BingWall.iOS
 	partial class TodaysBingViewController
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIButton bingWallImageDownloadBtn { get; set; }
+		MonoTouch.UIKit.UIButton syncBtn { get; set; }
 
 		[Outlet]
-		MonoTouch.UIKit.UIImageView bingWallImageView { get; set; }
+		MonoTouch.UIKit.UIImageView todaysBingWallpaper { get; set; }
+
+		[Outlet]
+		MonoTouch.UIKit.UIButton wallpaperBtn { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (bingWallImageDownloadBtn != null) {
-				bingWallImageDownloadBtn.Dispose ();
-				bingWallImageDownloadBtn = null;
+			if (todaysBingWallpaper != null) {
+				todaysBingWallpaper.Dispose ();
+				todaysBingWallpaper = null;
 			}
 
-			if (bingWallImageView != null) {
-				bingWallImageView.Dispose ();
-				bingWallImageView = null;
+			if (syncBtn != null) {
+				syncBtn.Dispose ();
+				syncBtn = null;
+			}
+
+			if (wallpaperBtn != null) {
+				wallpaperBtn.Dispose ();
+				wallpaperBtn = null;
 			}
 		}
 	}

@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{C48546EF-EB7C-451F-9C4E-7B93C30CF062}</ProjectGuid>
+    <ProjectGuid>{F9AE2AAA-13BA-418D-AE74-C98C387949B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BingWall.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
@@ -97,13 +97,9 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="BingWallViewController.cs" />
-    <Compile Include="BingWallViewController.designer.cs">
-      <DependentUpon>BingWallViewController.cs</DependentUpon>
-    </Compile>
-    <Compile Include="BackupBingViewController.cs" />
-    <Compile Include="BackupBingViewController.designer.cs">
-      <DependentUpon>BackupBingViewController.cs</DependentUpon>
+    <Compile Include="WallpaperBackupViewController.cs" />
+    <Compile Include="WallpaperBackupViewController.designer.cs">
+      <DependentUpon>WallpaperBackupViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="TodaysBingViewController.cs" />
     <Compile Include="TodaysBingViewController.designer.cs">

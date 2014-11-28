@@ -7,9 +7,9 @@ using MonoTouch.UIKit;
 
 namespace BingWall.iOS
 {
-	public partial class BackupBingViewController : UIView
+	public partial class WallpaperBackupViewController : UIViewController
 	{
-		public BackupBingViewController (IntPtr handle) : base (handle)
+		public WallpaperBackupViewController (IntPtr handle) : base (handle)
 		{
 		}
 	}

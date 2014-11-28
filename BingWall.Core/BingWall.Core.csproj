@@ -36,8 +36,14 @@
     <Compile Include="Interfaces\IBingRepository.cs" />
     <Compile Include="Web\BaseRequest.cs" />
     <Compile Include="Web\IBaseRequest.cs" />
+    <Compile Include="Models\BingBackground.cs" />
+    <Compile Include="Models\Image.cs" />
+    <Compile Include="Models\H.cs" />
+    <Compile Include="Models\Tooltips.cs" />
+    <Compile Include="Helpers\BingImageURL.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Newtonsoft.Json.dll</HintPath>

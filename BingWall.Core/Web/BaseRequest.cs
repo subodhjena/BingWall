@@ -43,6 +43,15 @@ namespace BingWall.Core.Web
 			await httpClient.GetStringAsync (url);
 		}
 
+		protected async Task<byte[]> GetByteArrayAsync<T>(string url)
+		{
+			HttpClient httpClient = new HttpClient ();
+			httpClient.DefaultRequestHeaders.Accept.Add (new MediaTypeWithQualityHeaderValue ("application/json"));
+			httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue ("Bearer", _securityToken);
+
+			return await httpClient.GetByteArrayAsync (url);
+		}
+
 		public async Task<T> PostAsync<T, U> (string url, U entity)
 		{
 			var httpClient = new HttpClient ();

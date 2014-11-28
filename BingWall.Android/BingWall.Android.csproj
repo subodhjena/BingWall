@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <ProjectGuid>{6A5D51FD-6D57-49B7-8454-61B33BEBE5D9}</ProjectGuid>
+    <ProjectGuid>{40732C30-5505-459A-AB22-89882090D638}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>BingWall.Android</RootNamespace>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -14,6 +14,7 @@
     <AndroidApplication>True</AndroidApplication>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <AssemblyName>BingWall.Android</AssemblyName>
+    <TargetFrameworkVersion>v4.4.87</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,4 +57,10 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\BingWall.Core\BingWall.Core.csproj">
+      <Project>{AA0C572C-1F4E-4FA2-9055-D2AC3DFFDD91}</Project>
+      <Name>BingWall.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

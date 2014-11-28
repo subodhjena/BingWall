@@ -60,8 +60,14 @@ namespace BingWall.Android
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050001
+			public const int syncBtn = 2131034113;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int todaysImage = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int wallBtn = 2131034114;
 			
 			static Id()
 			{
