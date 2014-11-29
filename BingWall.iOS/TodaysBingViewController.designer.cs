@@ -13,6 +13,9 @@ namespace BingWall.iOS
 	partial class TodaysBingViewController
 	{
 		[Outlet]
+		MonoTouch.UIKit.UIActivityIndicatorView activityIndicator { get; set; }
+
+		[Outlet]
 		MonoTouch.UIKit.UIButton syncBtn { get; set; }
 
 		[Outlet]
@@ -23,19 +26,24 @@ namespace BingWall.iOS
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (todaysBingWallpaper != null) {
-				todaysBingWallpaper.Dispose ();
-				todaysBingWallpaper = null;
-			}
-
 			if (syncBtn != null) {
 				syncBtn.Dispose ();
 				syncBtn = null;
 			}
 
+			if (todaysBingWallpaper != null) {
+				todaysBingWallpaper.Dispose ();
+				todaysBingWallpaper = null;
+			}
+
 			if (wallpaperBtn != null) {
 				wallpaperBtn.Dispose ();
 				wallpaperBtn = null;
+			}
+
+			if (activityIndicator != null) {
+				activityIndicator.Dispose ();
+				activityIndicator = null;
 			}
 		}
 	}
