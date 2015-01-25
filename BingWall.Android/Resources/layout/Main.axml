@@ -6,16 +6,33 @@
     <ImageView
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/todaysImage" />
+        android:layout_height="300dp"
+        android:id="@+id/todaysImage"
+        android:background="#fffffcfc"
+        style="@style/Theme" />
     <Button
         android:text="Sync"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/syncBtn" />
+        android:id="@+id/syncBtn"
+        android:background="#ff2ceab7" />
     <Button
-        android:text="Set As Wallpaper"
+        android:text="Share on Google+"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/wallBtn" />
+        android:id="@+id/shareGoogle"
+        android:background="#ffdf844d" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:gravity="center">
+        <Button
+            android:text="Set As Wallpaper"
+            android:id="@+id/wallBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff2cc5f1" />
+    </LinearLayout>
 </LinearLayout>

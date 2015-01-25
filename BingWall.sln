@@ -54,7 +54,4 @@ Global
 		{F9AE2AAA-13BA-418D-AE74-C98C387949B9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{F9AE2AAA-13BA-418D-AE74-C98C387949B9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = BingWall.iOS\BingWall.iOS.csproj
-	EndGlobalSection
 EndGlobal
